@@ -1,85 +1,36 @@
-body {
-    color: white;
-    margin: 0;
-    padding: 0;
-}
-
-.nav {
-    font-family: 'Open Sans', sans-serif;
-    text-align: right;
-    background-color: #616060;
-    color: white;
-}
-
 header {
     background-image: url('https://i.postimg.cc/ZnNKNCJr/encabezado.jpg');
     background-size: 100vmax 100vh;
     background-repeat: no-repeat;
-    height: 760px;
+    height: 758px;
+}
+
+.nav-not-shadow {
+    box-shadow: 0px 0px 0px 0px;
 }
 
 .section-welcome {
     text-align: center;
-    font-size: 40px;
-    color: black;
+    font-size: 30px;
     font-family: 'Domine', serif;
     margin: 17%;
-}
-
-em {
-    color: #f2ff07; 
-    font-family: 'Rouge Script', cursive;
-    font-size: 80px;
-}
-
-.salute {
     color: white;
-}
+ }
+ 
+ em {
+    color: #f2ff07;
+    font-family: 'Rouge Script', cursive;
+    font-size: 90px;
+ }
 
-.section-about-me {
-    height: 500px;
-    background-color: white;
-    text-align: center;
-}
-
-.title {
-    text-align: center;
-    box-sizing: content-box;
+ .title {
     color: #dd239f;
-}
-
-.container-aboutMe {
-    text-align: center;
-}
-
-.photo {
-    margin-left: 280px;
-}
-
-h3 {
     font-family: 'Source Serif Pro', serif;
-}
+ }
 
-.about-me {
-   font-size: 18px;
-   color: #333333;
-   text-align: justify;
-   width: 50%;
-   display: inline-table;
-   font-family: 'Open Sans', sans-serif;
-}
-
-.my-projects {
-    height: 600px;
-    background-color: cadetblue;
-}
-
-.container-projects {
-    text-align: center;
-}
-.div-project {
-    display: inline;
-    background-color: coral;
-  
-    
-}
+ .extract {  
+    color: #333333;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+ }
