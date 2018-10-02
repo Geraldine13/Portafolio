@@ -1,5 +1,5 @@
 header {
-    background-image: url('https://i.postimg.cc/ZnNKNCJr/encabezado.jpg');
+    background-image: url('img/back1\ \(1\).jpg');
     background-size: 100vmax 100vh;
     background-repeat: no-repeat;
     height: 758px;
@@ -13,24 +13,54 @@ header {
     text-align: center;
     font-size: 30px;
     font-family: 'Domine', serif;
-    margin: 17%;
-    color: white;
+    margin: 13%;
+    color: #333333;
  }
  
- em {
-    color: #f2ff07;
+em {
+    color: #351eb5;
     font-family: 'Rouge Script', cursive;
-    font-size: 90px;
- }
+    font-size: 120px;
+}
 
- .title {
+.title {
     color: #dd239f;
-    font-family: 'Source Serif Pro', serif;
- }
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0px 20px 0px;
+}
 
- .extract {  
-    color: #333333;
-    font-size: 18px;
+.extract {  
+    color: white;
+    font-size: 16px;
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
- }
+}
+
+.photo {
+  border-radius: 20px;
+  border: solid 1px yellow;
+}
+
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1 0 auto;
+    }
+
+.section-about-me {
+    height: 758px;
+    background-color:#333333;
+
+}
+
+.section-contact {
+    height: 640px;
+}
+
+.data-contact {
+    padding: 0px 0px 30px 0px;
+}

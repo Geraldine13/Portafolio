@@ -17,60 +17,21 @@
 
 <body>
   <header>
-    <div class="navbar-fixed">
-    <nav class="grey darken-4">
-      <div class="nav-wrapper ">
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
-          <li>
-            <a href="#">¡Bienvenid@!</a>
-          </li>
-          <li>
-            <a href="#">Acerca de Mi</a>
-          </li>
-          <li>
-            <a href="#">Mis Proyectos</a>
-          </li>
-          <li>
-            <a href="#">Mis Habilidades</a>
-          </li>
-          <li>
-            <a href="#">Mi Historia</a>
-          </li>
-          <li>
-            <a href="#">Contáctame</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large pink">
+        <i class="large material-icons">menu</i>
+      </a>
+      <ul>
+        <li><a  class="btn-floating pink lighten-2"><i class="material-icons" title="Contáctame">contact_mail</i></a></li>
+        <li><a class="btn-floating pink lighten-2"><i class="material-icons" title="Habilidades Tech">beenhere</i></a></li>
+        <li><a class="btn-floating pink lighten-2"><i class="material-icons" title="Mi Portafolio">work</i></a></li>
+        <li><a href="#about-me" class="btn-floating pink lighten-2"><i class="material-icons" title="Conóceme">person</i></a></li>
+      </ul>
     </div>
-
-    <ul class="sidenav nav-vertical" id="mobile-demo">
-      <li>
-        <a href="#">¡Bienvenid@!</a>
-      </li>
-      <li>
-        <a href="#">Acerca de Mi</a>
-      </li>
-      <li>
-        <a href="#">Mis Proyectos</a>
-      </li>
-      <li>
-        <a href="#">Mis Habilidades</a>
-      </li>
-      <li>
-        <a href="#">Mi Historia</a>
-      </li>
-      <li>
-        <a href="#">Contáctame</a>
-      </li>
-    </ul>
-
+  
     <section id="welcome" class="container">
       <div class="section-welcome">
-        <span class>Hola, mi nombre es
+        <span>
           <em>Geraldine Saco</em>
           <br>Front-End Developer</span>
       </div>
@@ -78,7 +39,7 @@
   </header>
 
   <main>
-    <div id="about-me">
+    <div id="about-me" class="section-about-me">
       <section class="container">
         <div class="row">
           <div class="col s12 center title">
@@ -87,25 +48,32 @@
 
           <div class="col s12 m4 left-align center">
             <picture>
-              <img src="img/Geraldine Saco.jpg" class="circle responsive-img" alt="Geraldine Saco">
+              <img src="img/Geraldine Saco (1).jpg" class="responsive-img photo" alt="Geraldine Saco">
             </picture>
           </div>
 
           <div class="col s12 m8 justify extract">
             <p>
-              Egresada de Laboratoria, con formación en desarrollo de proyectos en equipo y con metodologías ágiles; simulando el ambiente
-              laboral. Con pasión por la tecnología e innovación. Autodidácta, con actitud proactiva, comprometida y con
-              apertura a recibir feedback constante. Busco afrontar nuevos retos, que potencien la mejor versión de mí.
+              Desarrolladora Web Front end, con pasión por la tecnología e innovación. Autodidacta, con actitud proactiva, comprometida, con
+              apertura a recibir feedback constante y vocación de servicio. Busco afrontar nuevos retos, que potencien la mejor versión de mí.
               <br>
-              <br> Estoy casada y tengo una hija de 1 año; cuento con el apoyo de mi familia que son mi soporte, motor y motivo,
-              pero sobre todo; un gran aliado para seguir creciendo profesionalmente.
+              <br>Mi gran motivación es mi familia que son mi soporte y un gran aliado para seguir creciendo profesionalmente. 
+              Me encanta programar, bailar, jugar fútbol y basquét. Hacer lo que me gusta, 
+              impacta positivamente en mi calidad de vida y de quienes me rodean.
             </p>
+          </div>
+          <div class="col s12 m8 justify extract">
+              Reconocimientos en los valores Laboratoria:
+              <div class="row"><img src="https://png.icons8.com/office/40/f1c40f/medal.png">Control de Aprendizaje</div>
+              <div class="row"><img src="https://png.icons8.com/office/40/f1c40f/medal.png">Afronta el trabajo con profesionalismo y excelencia.</div>
+
           </div>
         </div>
       </section>
     </div>
+    <!--
     <div class="divider"></div>
-    <div id="portfolio">
+    <div id="portfolio" class="">
       <section class="container">
         <div class="row">
           <div class="col s12 center title">
@@ -163,7 +131,7 @@
       </section>
     </div>
     <div class="divider"></div>
-    <div id="skills">
+    <div id="skills" class="sections">
       <div class="container">
         <div class="row">
           <div class="col s12 center title">
@@ -178,23 +146,33 @@
               </div>
             </div>
             <div class="row">
-              <div class="col s6 m4">
-                <img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAkFBMVEX///8FQX8AO3sANXcAN3gAPXz3+fsAM3b7/P0AOXkANnfm7PICP37u8vbz9vnq7/TI1eMvXZIAMHRFcJ66ytvW4Orh6PAZTog6aJlKdaK6ydupvdJWfagnWpA1ZJcbUYphh67P2uauwdbE0uF+m7yUrceDob9yk7agtc0QSIQYToeYscqEnr6Pp8Rjha1FbJwVgZ+LAAAEM0lEQVRoge2V65KqOhCFcwUi4SJ3HBABHWVm3L7/253mEkRH/21qV53KqrJq0kPy0VndDUJaWlpaWlpaWlpaWv83GYfCWZ2Rm+Z+ZQowMDYzd3UGUFbNJQ8wXpniGg3hI4WuRTHC0NopymYdipFTM7d2nKxIGeuqQDNlhRszwrGuChTdfXlVyVbi+7umaevYmiJuXbdNs2tj21CHJX47PmM8bk3ZWFc52pH3uTjXsJRMgEiV+8OBP1lKYEmELPN6eKgJSw4BIkh6uyzy+BPb1UihQOHvasyuKCOcc/hhQkl/Zh4IWDMBcbLBMUS+4RnZRwThjF5nRh5UiaKA+9E7CvjGSZeWZdXBI/A+KKIYk6+wKIoMy/62kVEJTLoMInlF4H+OYpiY3Sk0f1fJMZc8vSSOazjeB5YyddAnxeJgOIZheHHHSeUin2GyTzyIuF4uMK8nz+FtlpQhF/Ki9z8oNo9qcYCHY1QwiZMpkgW0S/qH5ju6BCw4jYyhrnqKV1Ll/kvKkUmxU4ufgHHfCoXs4ilyDfPCQxeAfE+ROszDFs0zccqlZL8oC18OROJaLdrj8Sex8gVkevtFJrPnigGUFG6Mz76AkU+UP1x2/uP+H4rJ2bFdQ3VNXwpinyRg0xz6c2dgLDovYtPJoXWmU9gMrTmTrn6EfJhY8q6E8jp/XpK+e50OagpXWV4cjqd66OdiCSGd7c+XZB0VhGYTpOD86W6QuzeFlNAojMLr3foaOIJZkguIUI7Lj/6hm7lgxN6WTOcaPlZlvLXvnjxngpxz1kEfckGZlOYW5oh1CSsJDc+Z4JiR+IEiutjZTsZnRo3VOC4VA53FL0/gTDfxm8vn+ZCBh2J4BzeOo+Z0PuQdx+YZLSiiz2MzMSxfMeicR1/C+J6JYdv2Yv4ZyPhkz3XlYyny8Vpv9BejfcVAJ4p5pBYR7vAV+dFuxkKvb44oiSJfwa0t4dlkXrjBIgUGVX60yg+2ZKCGYqb6DLVU0qu1FWKrShWKhn5aZ3Y3zt3PEPg76PNgvzx/ZMApcnNWiyv0ww5ljFTqvaH82QmGsCQzpCQkVBvsYmaYPUN5/shAzhfh3am2XdeJv1Pez66+mT5ccMSFQ4gUEYo2mBUurC3knmBUH+btFnwp7nm88mMQdJWkMOm35RfjWJQGagIYDCV0Xp7BYOedh9y+Gat9XhTwfYPp39y3T4mYtzeej0q6DfTEIE6oCY1m3QL4BDIK3SjIOHJhckKEEULh8xhk1mK/nW0e6+r5rkbKsUy7vtNwWoXDQHZ+IALfxj6SXYYTm6zqYAjA1Vbb4+NXz87YUFfkpeez3LhtIpDvTa9oTZFdO7eNlbR9IGpjw3ra7u3372r3L8pzI8nf+vG3ZIXB6gxwMaOrM3rKpmd4azLAl8xcOY9eThGuztDS0tLS0tLS0tLS0vpH+g8vuk86BjurlwAAAABJRU5ErkJggg==">
+              <div class="col s6 m4 center-align">
+                  <img src="https://png.icons8.com/office/80/000000/groups.png"><br>
+                  <span>Trabajo en Equipo</span>
               </div>
-              <div class="col s6 m4">
-                <img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAkFBMVEX///8FQX8AO3sANXcAN3gAPXz3+fsAM3b7/P0AOXkANnfm7PICP37u8vbz9vnq7/TI1eMvXZIAMHRFcJ66ytvW4Orh6PAZTog6aJlKdaK6ydupvdJWfagnWpA1ZJcbUYphh67P2uauwdbE0uF+m7yUrceDob9yk7agtc0QSIQYToeYscqEnr6Pp8Rjha1FbJwVgZ+LAAAEM0lEQVRoge2V65KqOhCFcwUi4SJ3HBABHWVm3L7/253mEkRH/21qV53KqrJq0kPy0VndDUJaWlpaWlpaWlpaWv83GYfCWZ2Rm+Z+ZQowMDYzd3UGUFbNJQ8wXpniGg3hI4WuRTHC0NopymYdipFTM7d2nKxIGeuqQDNlhRszwrGuChTdfXlVyVbi+7umaevYmiJuXbdNs2tj21CHJX47PmM8bk3ZWFc52pH3uTjXsJRMgEiV+8OBP1lKYEmELPN6eKgJSw4BIkh6uyzy+BPb1UihQOHvasyuKCOcc/hhQkl/Zh4IWDMBcbLBMUS+4RnZRwThjF5nRh5UiaKA+9E7CvjGSZeWZdXBI/A+KKIYk6+wKIoMy/62kVEJTLoMInlF4H+OYpiY3Sk0f1fJMZc8vSSOazjeB5YyddAnxeJgOIZheHHHSeUin2GyTzyIuF4uMK8nz+FtlpQhF/Ki9z8oNo9qcYCHY1QwiZMpkgW0S/qH5ju6BCw4jYyhrnqKV1Ll/kvKkUmxU4ufgHHfCoXs4ilyDfPCQxeAfE+ROszDFs0zccqlZL8oC18OROJaLdrj8Sex8gVkevtFJrPnigGUFG6Mz76AkU+UP1x2/uP+H4rJ2bFdQ3VNXwpinyRg0xz6c2dgLDovYtPJoXWmU9gMrTmTrn6EfJhY8q6E8jp/XpK+e50OagpXWV4cjqd66OdiCSGd7c+XZB0VhGYTpOD86W6QuzeFlNAojMLr3foaOIJZkguIUI7Lj/6hm7lgxN6WTOcaPlZlvLXvnjxngpxz1kEfckGZlOYW5oh1CSsJDc+Z4JiR+IEiutjZTsZnRo3VOC4VA53FL0/gTDfxm8vn+ZCBh2J4BzeOo+Z0PuQdx+YZLSiiz2MzMSxfMeicR1/C+J6JYdv2Yv4ZyPhkz3XlYyny8Vpv9BejfcVAJ4p5pBYR7vAV+dFuxkKvb44oiSJfwa0t4dlkXrjBIgUGVX60yg+2ZKCGYqb6DLVU0qu1FWKrShWKhn5aZ3Y3zt3PEPg76PNgvzx/ZMApcnNWiyv0ww5ljFTqvaH82QmGsCQzpCQkVBvsYmaYPUN5/shAzhfh3am2XdeJv1Pez66+mT5ccMSFQ4gUEYo2mBUurC3knmBUH+btFnwp7nm88mMQdJWkMOm35RfjWJQGagIYDCV0Xp7BYOedh9y+Gat9XhTwfYPp39y3T4mYtzeej0q6DfTEIE6oCY1m3QL4BDIK3SjIOHJhckKEEULh8xhk1mK/nW0e6+r5rkbKsUy7vtNwWoXDQHZ+IALfxj6SXYYTm6zqYAjA1Vbb4+NXz87YUFfkpeez3LhtIpDvTa9oTZFdO7eNlbR9IGpjw3ra7u3372r3L8pzI8nf+vG3ZIXB6gxwMaOrM3rKpmd4azLAl8xcOY9eThGuztDS0tLS0tLS0tLS0vpH+g8vuk86BjurlwAAAABJRU5ErkJggg==">
+              <div class="col s6 m4 center-align">
+                  <img src="https://png.icons8.com/office/80/000000/reading-ebook.png">
+                  <span>Autodidacta</span>
               </div>
-              <div class="col s6 m4">
-                <img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAkFBMVEX///8FQX8AO3sANXcAN3gAPXz3+fsAM3b7/P0AOXkANnfm7PICP37u8vbz9vnq7/TI1eMvXZIAMHRFcJ66ytvW4Orh6PAZTog6aJlKdaK6ydupvdJWfagnWpA1ZJcbUYphh67P2uauwdbE0uF+m7yUrceDob9yk7agtc0QSIQYToeYscqEnr6Pp8Rjha1FbJwVgZ+LAAAEM0lEQVRoge2V65KqOhCFcwUi4SJ3HBABHWVm3L7/253mEkRH/21qV53KqrJq0kPy0VndDUJaWlpaWlpaWlpaWv83GYfCWZ2Rm+Z+ZQowMDYzd3UGUFbNJQ8wXpniGg3hI4WuRTHC0NopymYdipFTM7d2nKxIGeuqQDNlhRszwrGuChTdfXlVyVbi+7umaevYmiJuXbdNs2tj21CHJX47PmM8bk3ZWFc52pH3uTjXsJRMgEiV+8OBP1lKYEmELPN6eKgJSw4BIkh6uyzy+BPb1UihQOHvasyuKCOcc/hhQkl/Zh4IWDMBcbLBMUS+4RnZRwThjF5nRh5UiaKA+9E7CvjGSZeWZdXBI/A+KKIYk6+wKIoMy/62kVEJTLoMInlF4H+OYpiY3Sk0f1fJMZc8vSSOazjeB5YyddAnxeJgOIZheHHHSeUin2GyTzyIuF4uMK8nz+FtlpQhF/Ki9z8oNo9qcYCHY1QwiZMpkgW0S/qH5ju6BCw4jYyhrnqKV1Ll/kvKkUmxU4ufgHHfCoXs4ilyDfPCQxeAfE+ROszDFs0zccqlZL8oC18OROJaLdrj8Sex8gVkevtFJrPnigGUFG6Mz76AkU+UP1x2/uP+H4rJ2bFdQ3VNXwpinyRg0xz6c2dgLDovYtPJoXWmU9gMrTmTrn6EfJhY8q6E8jp/XpK+e50OagpXWV4cjqd66OdiCSGd7c+XZB0VhGYTpOD86W6QuzeFlNAojMLr3foaOIJZkguIUI7Lj/6hm7lgxN6WTOcaPlZlvLXvnjxngpxz1kEfckGZlOYW5oh1CSsJDc+Z4JiR+IEiutjZTsZnRo3VOC4VA53FL0/gTDfxm8vn+ZCBh2J4BzeOo+Z0PuQdx+YZLSiiz2MzMSxfMeicR1/C+J6JYdv2Yv4ZyPhkz3XlYyny8Vpv9BejfcVAJ4p5pBYR7vAV+dFuxkKvb44oiSJfwa0t4dlkXrjBIgUGVX60yg+2ZKCGYqb6DLVU0qu1FWKrShWKhn5aZ3Y3zt3PEPg76PNgvzx/ZMApcnNWiyv0ww5ljFTqvaH82QmGsCQzpCQkVBvsYmaYPUN5/shAzhfh3am2XdeJv1Pez66+mT5ccMSFQ4gUEYo2mBUurC3knmBUH+btFnwp7nm88mMQdJWkMOm35RfjWJQGagIYDCV0Xp7BYOedh9y+Gat9XhTwfYPp39y3T4mYtzeej0q6DfTEIE6oCY1m3QL4BDIK3SjIOHJhckKEEULh8xhk1mK/nW0e6+r5rkbKsUy7vtNwWoXDQHZ+IALfxj6SXYYTm6zqYAjA1Vbb4+NXz87YUFfkpeez3LhtIpDvTa9oTZFdO7eNlbR9IGpjw3ra7u3372r3L8pzI8nf+vG3ZIXB6gxwMaOrM3rKpmd4azLAl8xcOY9eThGuztDS0tLS0tLS0tLS0vpH+g8vuk86BjurlwAAAABJRU5ErkJggg==">
+              <div class="col s6 m4 center-align">
+                  <img src="https://png.icons8.com/office/80/000000/volunteering.png"><br>
+                  <span>Vocación de Servicio</span>
               </div>
-              <div class="col s6 m4">
-                <img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAkFBMVEX///8FQX8AO3sANXcAN3gAPXz3+fsAM3b7/P0AOXkANnfm7PICP37u8vbz9vnq7/TI1eMvXZIAMHRFcJ66ytvW4Orh6PAZTog6aJlKdaK6ydupvdJWfagnWpA1ZJcbUYphh67P2uauwdbE0uF+m7yUrceDob9yk7agtc0QSIQYToeYscqEnr6Pp8Rjha1FbJwVgZ+LAAAEM0lEQVRoge2V65KqOhCFcwUi4SJ3HBABHWVm3L7/253mEkRH/21qV53KqrJq0kPy0VndDUJaWlpaWlpaWlpaWv83GYfCWZ2Rm+Z+ZQowMDYzd3UGUFbNJQ8wXpniGg3hI4WuRTHC0NopymYdipFTM7d2nKxIGeuqQDNlhRszwrGuChTdfXlVyVbi+7umaevYmiJuXbdNs2tj21CHJX47PmM8bk3ZWFc52pH3uTjXsJRMgEiV+8OBP1lKYEmELPN6eKgJSw4BIkh6uyzy+BPb1UihQOHvasyuKCOcc/hhQkl/Zh4IWDMBcbLBMUS+4RnZRwThjF5nRh5UiaKA+9E7CvjGSZeWZdXBI/A+KKIYk6+wKIoMy/62kVEJTLoMInlF4H+OYpiY3Sk0f1fJMZc8vSSOazjeB5YyddAnxeJgOIZheHHHSeUin2GyTzyIuF4uMK8nz+FtlpQhF/Ki9z8oNo9qcYCHY1QwiZMpkgW0S/qH5ju6BCw4jYyhrnqKV1Ll/kvKkUmxU4ufgHHfCoXs4ilyDfPCQxeAfE+ROszDFs0zccqlZL8oC18OROJaLdrj8Sex8gVkevtFJrPnigGUFG6Mz76AkU+UP1x2/uP+H4rJ2bFdQ3VNXwpinyRg0xz6c2dgLDovYtPJoXWmU9gMrTmTrn6EfJhY8q6E8jp/XpK+e50OagpXWV4cjqd66OdiCSGd7c+XZB0VhGYTpOD86W6QuzeFlNAojMLr3foaOIJZkguIUI7Lj/6hm7lgxN6WTOcaPlZlvLXvnjxngpxz1kEfckGZlOYW5oh1CSsJDc+Z4JiR+IEiutjZTsZnRo3VOC4VA53FL0/gTDfxm8vn+ZCBh2J4BzeOo+Z0PuQdx+YZLSiiz2MzMSxfMeicR1/C+J6JYdv2Yv4ZyPhkz3XlYyny8Vpv9BejfcVAJ4p5pBYR7vAV+dFuxkKvb44oiSJfwa0t4dlkXrjBIgUGVX60yg+2ZKCGYqb6DLVU0qu1FWKrShWKhn5aZ3Y3zt3PEPg76PNgvzx/ZMApcnNWiyv0ww5ljFTqvaH82QmGsCQzpCQkVBvsYmaYPUN5/shAzhfh3am2XdeJv1Pez66+mT5ccMSFQ4gUEYo2mBUurC3knmBUH+btFnwp7nm88mMQdJWkMOm35RfjWJQGagIYDCV0Xp7BYOedh9y+Gat9XhTwfYPp39y3T4mYtzeej0q6DfTEIE6oCY1m3QL4BDIK3SjIOHJhckKEEULh8xhk1mK/nW0e6+r5rkbKsUy7vtNwWoXDQHZ+IALfxj6SXYYTm6zqYAjA1Vbb4+NXz87YUFfkpeez3LhtIpDvTa9oTZFdO7eNlbR9IGpjw3ra7u3372r3L8pzI8nf+vG3ZIXB6gxwMaOrM3rKpmd4azLAl8xcOY9eThGuztDS0tLS0tLS0tLS0vpH+g8vuk86BjurlwAAAABJRU5ErkJggg==">
+              <div class="col s6 m4 center-align">
+                  <img src="https://png.icons8.com/ios/80/000000/helping-hand.png"><br>
+                  <span>Compromiso</span>
               </div>
-              <div class="col s6 m4">
-                <img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAkFBMVEX///8FQX8AO3sANXcAN3gAPXz3+fsAM3b7/P0AOXkANnfm7PICP37u8vbz9vnq7/TI1eMvXZIAMHRFcJ66ytvW4Orh6PAZTog6aJlKdaK6ydupvdJWfagnWpA1ZJcbUYphh67P2uauwdbE0uF+m7yUrceDob9yk7agtc0QSIQYToeYscqEnr6Pp8Rjha1FbJwVgZ+LAAAEM0lEQVRoge2V65KqOhCFcwUi4SJ3HBABHWVm3L7/253mEkRH/21qV53KqrJq0kPy0VndDUJaWlpaWlpaWlpaWv83GYfCWZ2Rm+Z+ZQowMDYzd3UGUFbNJQ8wXpniGg3hI4WuRTHC0NopymYdipFTM7d2nKxIGeuqQDNlhRszwrGuChTdfXlVyVbi+7umaevYmiJuXbdNs2tj21CHJX47PmM8bk3ZWFc52pH3uTjXsJRMgEiV+8OBP1lKYEmELPN6eKgJSw4BIkh6uyzy+BPb1UihQOHvasyuKCOcc/hhQkl/Zh4IWDMBcbLBMUS+4RnZRwThjF5nRh5UiaKA+9E7CvjGSZeWZdXBI/A+KKIYk6+wKIoMy/62kVEJTLoMInlF4H+OYpiY3Sk0f1fJMZc8vSSOazjeB5YyddAnxeJgOIZheHHHSeUin2GyTzyIuF4uMK8nz+FtlpQhF/Ki9z8oNo9qcYCHY1QwiZMpkgW0S/qH5ju6BCw4jYyhrnqKV1Ll/kvKkUmxU4ufgHHfCoXs4ilyDfPCQxeAfE+ROszDFs0zccqlZL8oC18OROJaLdrj8Sex8gVkevtFJrPnigGUFG6Mz76AkU+UP1x2/uP+H4rJ2bFdQ3VNXwpinyRg0xz6c2dgLDovYtPJoXWmU9gMrTmTrn6EfJhY8q6E8jp/XpK+e50OagpXWV4cjqd66OdiCSGd7c+XZB0VhGYTpOD86W6QuzeFlNAojMLr3foaOIJZkguIUI7Lj/6hm7lgxN6WTOcaPlZlvLXvnjxngpxz1kEfckGZlOYW5oh1CSsJDc+Z4JiR+IEiutjZTsZnRo3VOC4VA53FL0/gTDfxm8vn+ZCBh2J4BzeOo+Z0PuQdx+YZLSiiz2MzMSxfMeicR1/C+J6JYdv2Yv4ZyPhkz3XlYyny8Vpv9BejfcVAJ4p5pBYR7vAV+dFuxkKvb44oiSJfwa0t4dlkXrjBIgUGVX60yg+2ZKCGYqb6DLVU0qu1FWKrShWKhn5aZ3Y3zt3PEPg76PNgvzx/ZMApcnNWiyv0ww5ljFTqvaH82QmGsCQzpCQkVBvsYmaYPUN5/shAzhfh3am2XdeJv1Pez66+mT5ccMSFQ4gUEYo2mBUurC3knmBUH+btFnwp7nm88mMQdJWkMOm35RfjWJQGagIYDCV0Xp7BYOedh9y+Gat9XhTwfYPp39y3T4mYtzeej0q6DfTEIE6oCY1m3QL4BDIK3SjIOHJhckKEEULh8xhk1mK/nW0e6+r5rkbKsUy7vtNwWoXDQHZ+IALfxj6SXYYTm6zqYAjA1Vbb4+NXz87YUFfkpeez3LhtIpDvTa9oTZFdO7eNlbR9IGpjw3ra7u3372r3L8pzI8nf+vG3ZIXB6gxwMaOrM3rKpmd4azLAl8xcOY9eThGuztDS0tLS0tLS0tLS0vpH+g8vuk86BjurlwAAAABJRU5ErkJggg==">
+              <div class="col s6 m4 center-align">
+                  <img src="https://png.icons8.com/office/80/9b59b6/life-cycle-female.png"><br>
+                  <span>Resiliente</span>
               </div>
-              <div class="col s6 m4">
-                <img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAkFBMVEX///8FQX8AO3sANXcAN3gAPXz3+fsAM3b7/P0AOXkANnfm7PICP37u8vbz9vnq7/TI1eMvXZIAMHRFcJ66ytvW4Orh6PAZTog6aJlKdaK6ydupvdJWfagnWpA1ZJcbUYphh67P2uauwdbE0uF+m7yUrceDob9yk7agtc0QSIQYToeYscqEnr6Pp8Rjha1FbJwVgZ+LAAAEM0lEQVRoge2V65KqOhCFcwUi4SJ3HBABHWVm3L7/253mEkRH/21qV53KqrJq0kPy0VndDUJaWlpaWlpaWlpaWv83GYfCWZ2Rm+Z+ZQowMDYzd3UGUFbNJQ8wXpniGg3hI4WuRTHC0NopymYdipFTM7d2nKxIGeuqQDNlhRszwrGuChTdfXlVyVbi+7umaevYmiJuXbdNs2tj21CHJX47PmM8bk3ZWFc52pH3uTjXsJRMgEiV+8OBP1lKYEmELPN6eKgJSw4BIkh6uyzy+BPb1UihQOHvasyuKCOcc/hhQkl/Zh4IWDMBcbLBMUS+4RnZRwThjF5nRh5UiaKA+9E7CvjGSZeWZdXBI/A+KKIYk6+wKIoMy/62kVEJTLoMInlF4H+OYpiY3Sk0f1fJMZc8vSSOazjeB5YyddAnxeJgOIZheHHHSeUin2GyTzyIuF4uMK8nz+FtlpQhF/Ki9z8oNo9qcYCHY1QwiZMpkgW0S/qH5ju6BCw4jYyhrnqKV1Ll/kvKkUmxU4ufgHHfCoXs4ilyDfPCQxeAfE+ROszDFs0zccqlZL8oC18OROJaLdrj8Sex8gVkevtFJrPnigGUFG6Mz76AkU+UP1x2/uP+H4rJ2bFdQ3VNXwpinyRg0xz6c2dgLDovYtPJoXWmU9gMrTmTrn6EfJhY8q6E8jp/XpK+e50OagpXWV4cjqd66OdiCSGd7c+XZB0VhGYTpOD86W6QuzeFlNAojMLr3foaOIJZkguIUI7Lj/6hm7lgxN6WTOcaPlZlvLXvnjxngpxz1kEfckGZlOYW5oh1CSsJDc+Z4JiR+IEiutjZTsZnRo3VOC4VA53FL0/gTDfxm8vn+ZCBh2J4BzeOo+Z0PuQdx+YZLSiiz2MzMSxfMeicR1/C+J6JYdv2Yv4ZyPhkz3XlYyny8Vpv9BejfcVAJ4p5pBYR7vAV+dFuxkKvb44oiSJfwa0t4dlkXrjBIgUGVX60yg+2ZKCGYqb6DLVU0qu1FWKrShWKhn5aZ3Y3zt3PEPg76PNgvzx/ZMApcnNWiyv0ww5ljFTqvaH82QmGsCQzpCQkVBvsYmaYPUN5/shAzhfh3am2XdeJv1Pez66+mT5ccMSFQ4gUEYo2mBUurC3knmBUH+btFnwp7nm88mMQdJWkMOm35RfjWJQGagIYDCV0Xp7BYOedh9y+Gat9XhTwfYPp39y3T4mYtzeej0q6DfTEIE6oCY1m3QL4BDIK3SjIOHJhckKEEULh8xhk1mK/nW0e6+r5rkbKsUy7vtNwWoXDQHZ+IALfxj6SXYYTm6zqYAjA1Vbb4+NXz87YUFfkpeez3LhtIpDvTa9oTZFdO7eNlbR9IGpjw3ra7u3372r3L8pzI8nf+vG3ZIXB6gxwMaOrM3rKpmd4azLAl8xcOY9eThGuztDS0tLS0tLS0tLS0vpH+g8vuk86BjurlwAAAABJRU5ErkJggg==">
+              <div class="col s6 m4 center-align">
+                  <img src="https://png.icons8.com/office/80/9b59b6/lol.png"><br>
+                  <span>Empatía</span>
+              </div>
+              <div class="col s6 m4 center-align">
+                  <img src="https://png.icons8.com/ultraviolet/80/9b59b6/group-task.png"><br>
+                  <span>Comunicación Asertiva</span>
               </div>
             </div>
           </div>
@@ -232,7 +210,7 @@
       </div>
     </div>
     <div class="divider"></div>
-    <div id="contact">
+    <div id="contact" class="section-contact">
       <section class="container">
         <div class="row">
           <div class="col s12 center title">
@@ -243,15 +221,15 @@
           <div class="col s12 m6">
             <div class="row">
               <div class="col s12">
-                <div class="row">
+                <div class="row data-contact">
                   <div class="col s4 right-align">
                     <img src="https://png.icons8.com/ultraviolet/40/000000/home.png">
                   </div>
                   <div class="col s8">
-                    <span>Jr. Zorritos 1294 Block 20 Dpto. 203 Res. Los Álamos - Cercado de Lima</span>
+                    <span>Jr. Zorritos 1294 Block 20 Dpto. 203 Res. Los Álamos Cercado de Lima</span>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row data-contact">
                   <div class="col s4 right-align">
                     <img src="https://png.icons8.com/ultraviolet/40/000000/email-document.png">
                   </div>
@@ -259,7 +237,7 @@
                     <span>geraldine.cristal@gmail.com</span>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row data-contact">
                   <div class="col s4 right-align">
                     <img src="https://png.icons8.com/office/40/000000/open-resume.png">
                   </div>
@@ -273,7 +251,7 @@
           <div class="col s12 m6">
             <div class="row">
               <div class="col s12">
-                <div class="row">
+                <div class="row data-contact">
                   <div class="col s4  right-align">
                     <img src="https://png.icons8.com/color/40/000000/linkedin.png">
                   </div>
@@ -281,7 +259,7 @@
                     <span>Geraldine Saco Ruiz</span>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row data-contact">
                   <div class="col s4 right-align">
                       <img src="https://png.icons8.com/windows/40/000000/github.png">
                   </div>
@@ -289,8 +267,8 @@
                     <span>Geraldine13</span>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col s4 right-align dataContact">
+                <div class="row data-contact">
+                  <div class="col s4 right-align">
                     <img src="https://png.icons8.com/ultraviolet/40/000000/touchscreen-smartphone.png">
                   </div>
                   <div class="col s8">
@@ -302,8 +280,17 @@
           </div>
         </div>
       </section>
-
-    </div>
+    </div>-->
   </main>
+  <!-- <footer class="page-footer grey darken-4">
+    <div class="container">
+      <div class="row center-align">
+        <span>© Copyright - Desarrollado por Geraldine Saco</span>
+    </div>
+    </div>
+  </footer> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="app.js"></script>
 </body>
+
 </html>
