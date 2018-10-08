@@ -26,11 +26,12 @@ em {
 .title {
     color: #dd239f;
     font-family: 'Open Sans', sans-serif;
-    margin: 20px 0px 20px 0px;
+    margin: 50px 0px 50px 0px;
+    text-decoration-line: underline;
 }
 
 .extract {  
-    color: white;
+    color: #333333;
     font-size: 16px;
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
@@ -53,14 +54,31 @@ em {
 
 .section-about-me {
     height: 758px;
-    background-color:#333333;
-
+    background-image: url('img/bg-me.jpg');
+    background-size: 100vmax 100vh;
+    background-repeat: no-repeat;
 }
 
 .section-contact {
-    height: 640px;
+    height: 700px;
+    background-image: url('img/bg-contact.jpg');
+    background-size: 100vmax 100vh;
+    background-repeat: no-repeat;
+    
 }
 
 .data-contact {
     padding: 0px 0px 30px 0px;
 }
+
+.values {
+  margin-top: 30px;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.title-values {
+  margin-bottom: 30px;
+}
+
