@@ -93,17 +93,17 @@ em {
     background-color: #b1a8e0   ;
     height: 510px;
     border: solid 2px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-right: 0;
+    /* border-top-left-radius: 10px; */
+    /* border-bottom-left-radius: 10px; */
+    /* border-right: 0; */
 }
 
 .show-project {
     /* background-color: #dd239f; */
     height: 510px;
     border: solid 2px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    /* border-top-right-radius: 10px; */
+    /* border-bottom-right-radius: 10px; */
 }
 
 .project-play {
@@ -133,4 +133,6 @@ em {
 
 .description {
     text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
