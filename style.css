@@ -63,8 +63,7 @@ em {
     height: 700px;
     background-image: url('img/bg-contact.jpg');
     background-size: 100vmax 100vh;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;  
 }
 
 .data-contact {
@@ -84,4 +83,54 @@ em {
 
 .cv {
   margin-top: 50px;
+}
+
+.section-portafolio {
+    height: 758px;
+}
+
+.list-project {
+    background-color: #b1a8e0   ;
+    height: 510px;
+    border: solid 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 0;
+}
+
+.show-project {
+    /* background-color: #dd239f; */
+    height: 510px;
+    border: solid 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.project-play {
+    margin-top: 140px;
+    margin-left: 50px;
+}
+
+.app {
+    margin: 50px;  
+}
+
+.project {
+    margin-top: 25px;
+}
+
+.title-project {
+    font-size: 26px;
+    font: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.link-repo {
+    text-decoration: underline;
+    color: blue;
+}
+
+.description {
+    text-align: justify;
 }
