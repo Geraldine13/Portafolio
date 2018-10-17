@@ -1,32 +1,37 @@
 [
     {
-        "title": "Data Dashboard Académico",
+        "key": "dashboard",
+        "title": "Dashboard Académico",
         "image": "img/proyecto_dashboard.png",
         "description": "El proyecto tiene el objetivo de medir y análizar el proceso de aprendizaje de las estudiantes, con el desarrollo de ejercicios en la plataforma de Cursos; siendo las Training Managers de cada Sede, las usuarias de la aplicación para evaluar si las estudiantes están aplicando lo aprendido y están preparadas para afrontar el desarrollo de los proyectos a realizar. En este caso se ha trabajado con la Muestra de Selección de Pre-Admisión.",
-        "link-demo": "https://geraldine13.github.io/lim-2018-05-bc-core-am-datadashboard/src/",
-        "link-repo": "https://github.com/Geraldine13/lim-2018-05-bc-core-am-datadashboard"
+        "demo": "https://geraldine13.github.io/lim-2018-05-bc-core-am-datadashboard/src/",
+        "repo": "https://github.com/Geraldine13/lim-2018-05-bc-core-am-datadashboard"
     },
 
     {
+        "key": "socialNetwork",
         "title": "Red Social Q-Nutrition",
         "image": "img/proyecto_redSocial.png",
         "description": "El proyecto tiene el objetivo resolver la necesidad de reunir a personas con el interés de alimentación consciente y saludable, un espacio en el que pueden compartir tips, recetas, etc. El usuario tiene una vista de post públicos y una vista privada, puede postear, editar y eliminar el post; como también dar like o dislike a un comentario.",
-        "link-demo": "https://geraldine13.github.io/lim-2018-05-bc-core-am-socialnetwork/src/html/",
-        "link-repo": "https://github.com/Geraldine13/lim-2018-05-bc-core-am-socialnetwork"
+        "demo": "https://geraldine13.github.io/lim-2018-05-bc-core-am-socialnetwork/src/html/",
+        "repo": "https://github.com/Geraldine13/lim-2018-05-bc-core-am-socialnetwork"
     },
 
     {
+        "key": "foodmap",
         "title": "Favorite FoodMap",
         "image": "img/proyecto_FoodMap.png",
         "description": "El proyecto tiene el objetivo tener una lista de restaurantes favoritos y poder ubicarlos en el google maps, la aplicación te permite filtrar por nombre, tipo de comida y por Distrito. Dando click sobre el nombre del restaurante, mostrará su información.",
-        "link-demo": "https://geraldine13.github.io/lim-2018-01-foodmap/src/",
-        "link-repo": "https://github.com/Geraldine13/lim-2018-01-foodmap"
+        "demo": "https://geraldine13.github.io/lim-2018-01-foodmap/src/",
+        "repo": "https://github.com/Geraldine13/lim-2018-01-foodmap"
     },
 
     {
+        "key": "mdlinks",
         "title": "Librería md-links",
         "image": "img/proyecto_mdlinks.png",
         "description": "El proyecto tiene el objetivo validar los links que se encuentran en archivos Markdown y mostrar algunas estadísticas. Cuenta con las siguientes opciones: --validate (muestra los links y los estados de cada uno), --stats (muestra el total de links encontrados y links únicos), --validate --stats (muestra links total, únicos y rotos).",
-        "link-repo": "https://github.com/Geraldine13/lim20181-Track-FE-markdown-list"
+        "demo": "https://github.com/Geraldine13/lim20181-Track-FE-markdown-list",
+        "repo": "https://github.com/Geraldine13/lim20181-Track-FE-markdown-list"
     }
 ]
