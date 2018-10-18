@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 const handleError = () => {
-  alert('Se ha presentado un error');
+  alert('Se ha presentado un error en la conexión con la data');
 }
 
 const getProjects = (callback) => {
@@ -51,9 +51,7 @@ const showData = (data) => {
 
 const selectProject = () => {
   getProjects(()=> {
-    const dataProjects = JSON.parse(event.currentTarget.responseText);
-    console.log(dataProjects);
-    
+    const dataProjects = JSON.parse(event.currentTarget.responseText);    
     const dashboard = document.getElementById('dashboard');
     const socialNetwork = document.getElementById('socialNetwork');
     const foodmap = document.getElementById('foodmap');
@@ -90,13 +88,7 @@ const selectProject = () => {
       })
       showData(filterProject);
     });
-
-
   })
 }
 
 selectProject();
-
-
-
-

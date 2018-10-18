@@ -1,40 +1,44 @@
 header {
-    background-image: url('img/back1\ \(1\).jpg');
-    background-size: 100vmax 100vh;
-    background-repeat: no-repeat;
-    height: 758px;
+  background-image: url('img/back1\ \(1\).jpg');
+  background-size: 100vmax 100vh;
+  background-repeat: no-repeat;
+  height: 605px;
 }
 
 .nav-not-shadow {
-    box-shadow: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 0px 0px;
 }
 
 .section-welcome {
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Domine', serif;
-    margin: 13%;
-    color: #333333;
- }
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Domine', serif;
+  margin: 13%;
+  color: #333333;
+}
  
 em {
-    color: #351eb5;
-    font-family: 'Rouge Script', cursive;
-    font-size: 120px;
+  color: #351eb5;
+  font-family: 'Rouge Script', cursive;
+  font-size: 90px;
 }
 
 .title {
-    color: #dd239f;
-    font-family: 'Open Sans', sans-serif;
-    margin: 50px 0px 50px 0px;
-    text-decoration-line: underline;
+  color: #dd239f;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 0px 30px 0px;
+  text-decoration-line: underline;
 }
 
 .extract {  
-    color: #333333;
-    font-size: 16px;
-    text-align: justify;
-    font-family: 'Open Sans', sans-serif;
+  color: #333333;
+  font-size: 14px;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.awards {
+  width: 20px;
 }
 
 .photo {
@@ -42,39 +46,39 @@ em {
   border: solid 1px yellow;
 }
 
-    body {
-        display: flex;
-        min-height: 100vh;
-        flex-direction: column;
-    }
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
-    main {
-        flex: 1 0 auto;
-    }
+main {
+  flex: 1 0 auto;
+}
 
 .section-about-me {
-    height: 758px;
-    background-image: url('img/bg-me.jpg');
-    background-size: 100vmax 100vh;
-    background-repeat: no-repeat;
+  height: 605px;
+  background-image: url('img/bg-me.jpg');
+  background-size: 100vmax 100vh;
+  background-repeat: no-repeat;
 }
 
 .section-contact {
-    height: 700px;
-    background-image: url('img/bg-contact.jpg');
-    background-size: 100vmax 100vh;
-    background-repeat: no-repeat;  
+  height: 550px;
+  background-image: url('img/bg-contact.jpg');
+  background-size: 100vmax 100vh;
+  background-repeat: no-repeat;  
 }
 
 .data-contact {
-    padding: 0px 0px 30px 0px;
+  padding: 0px 0px 30px 0px;
 }
 
 .values {
-  margin-top: 30px;
+  margin-top: 10px;
   color: #333333;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .title-values {
@@ -86,53 +90,53 @@ em {
 }
 
 .section-portafolio {
-    height: 758px;
+  height: 605px;
 }
 
 .list-project {
-    background-color: #b1a8e0   ;
-    height: 510px;
-    border: solid 2px;
-    /* border-top-left-radius: 10px; */
-    /* border-bottom-left-radius: 10px; */
-    /* border-right: 0; */
+  background-color: black;
+  height: 450px;
+  border: solid 2px black;
 }
 
 .show-project {
-    /* background-color: #dd239f; */
-    height: 510px;
-    border: solid 2px;
-    /* border-top-right-radius: 10px; */
-    /* border-bottom-right-radius: 10px; */
+  height: 450px;
+  border: solid 2px;
 }
 
 .project-play {
-    margin-top: 140px;
-    margin-left: 50px;
+  margin-top: 100px;
+  margin-left: 15px;
 }
 
 .app {
-    margin: 50px;  
+  margin: 50px;  
 }
 
 .project {
-    margin-top: 25px;
+  margin-top: 10px;
 }
 
 .title-project {
-    font-size: 26px;
-    font: bold;
-    text-decoration: underline;
-    margin-bottom: 20px;
+  font-size: 20px;
+  font: bold;
+  text-decoration: underline;
+  margin-bottom: 10px;
 }
 
 .link-repo {
-    text-decoration: underline;
-    color: blue;
+  text-decoration: underline;
+  color: blue;
 }
 
 .description {
-    text-align: justify;
-    margin-top: 20px;
-    margin-bottom: 25px;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.space {
+  margin-top: 200px;
+  font-size: 20px;
 }
