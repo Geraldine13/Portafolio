@@ -1,15 +1,20 @@
-header {
+.bg-hero {
   background-image: url('img/back1\ \(1\).jpg');
-  background-size: 100vmax 100vh;
+  height: 100vh;
+  background-size: 100vh 100vmax;
   background-repeat: no-repeat;
-  height: 755px;
 }
 
 .nav-not-shadow {
   box-shadow: 0px 0px 0px 0px;
 }
 
+.menu {
+  top: 60px;
+}
+
 .section-welcome {
+  height: 300px;
   text-align: center;
   font-size: 25px;
   font-family: 'Domine', serif;
@@ -17,7 +22,7 @@ header {
   color: #333333;
 }
  
-em {
+strong {
   color: #351eb5;
   font-family: 'Rouge Script', cursive;
   font-size: 90px;
@@ -32,7 +37,7 @@ em {
 
 .extract {  
   color: #333333;
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify;
   font-family: 'Open Sans', sans-serif;
 }
@@ -57,10 +62,15 @@ main {
 }
 
 .section-about-me {
-  height: 755px;
-  background-image: url('img/bg-me.jpg');
-  background-size: 100vmax 100vh;
-  background-repeat: no-repeat;
+  /* height: 755px; */
+  /* background-image: url('img/bg-me.jpg'); */
+  background-size: cover;
+  background-color: rgb(215, 218, 221);
+  /* background-repeat: no-repeat; */
+}
+
+.par {
+  margin-top: 0px;
 }
 
 .section-skill {
@@ -83,10 +93,6 @@ main {
   color: #333333;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-}
-
-.title-values {
-  margin-bottom: 30px;
 }
 
 .cv {
