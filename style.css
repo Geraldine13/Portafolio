@@ -1,8 +1,8 @@
 .bg-hero {
   background-image: url('img/back1\ \(1\).jpg');
-  height: 100vh;
-  background-size: 100vh 100vmax;
+  background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .nav-not-shadow {
